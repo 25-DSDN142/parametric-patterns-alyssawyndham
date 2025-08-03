@@ -8,11 +8,20 @@ function draw() {
 //line(100,0,100,200);
 //line(0,100,200,100);
 
+//background checkers
+fill(255, 212, 238)
+strokeWeight(0)
+square(0, 0, 100)
+square(100, 100, 100)
+
 drawMilo();
 
+if(mouseX >= 50 && mouseX <= 150 && mouseY >= 50 && mouseY <=150) {
+  drawTongue();
+}
 
 }
-  
+ 
 function drawMilo () {
   //my lovely menace dog
   
@@ -68,10 +77,12 @@ line(110, 125, 115, 120)
 //left
 line(100, 120, 90, 125)
 line(90, 125, 85, 120)
-//tongue
+
+}
+function drawTongue() {
+  //tongue
 strokeWeight(5)
 stroke(227, 127, 177)
 line(100, 123, 100, 125)
 }
-
 
