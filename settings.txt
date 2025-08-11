@@ -9,19 +9,19 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
-//spanish tennis balls
+ //spanish tennis balls
 let unotennisX = 30;
 let unotennisY = 30;
 let dostennisX = 170;
-let dostennisY = 170;
+let dostennisY = 175;
 //milo head position
 let headX = 100;
 let headY = 100;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 15;
-let shineSize = eyeSize - 10;
+let eyeSize = 20;
+let shineSize = eyeSize - 10;  
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GLIDE_WALLPAPER);
@@ -41,19 +41,50 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 2:
 
-//your parameter variables go here!
-//spanish tennis balls
+ //spanish tennis balls
 let unotennisX = 30;
 let unotennisY = 30;
 let dostennisX = 170;
-let dostennisY = 170;
+let dostennisY = 175;
 //milo head position
 let headX = 100;
 let headY = 100;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 15;
-let shineSize = eyeSize - 10;
+let eyeSize = 20;
+let shineSize = eyeSize - 10;  
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  //pWallpaper.output_mode(GRID_WALLPAPER);
+  //DEVELOP_GLYPH
+  //GLIDE_WALLPAPER
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+ //spanish tennis balls
+let unotennisX = 30;
+let unotennisY = 30;
+let dostennisX = 170;
+let dostennisY = 175;
+//milo head position
+let headX = 100;
+let headY = 100;
+//eye position
+let eyeY = headY - 10;
+let eyeSize = 20;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
@@ -67,18 +98,17 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.row_offset  = 0;
 }
 
 /////////////////////////////////
 
-Wallpaper 3:
+Wallpaper 4:
 
-//your parameter variables go here!
-//spanish tennis balls
-let unotennisX = 175;
+ //spanish tennis balls
+let unotennisX = 125;
 let unotennisY = 125;
-let dostennisX = 125;
+let dostennisX = 175;
 let dostennisY = 175;
 //milo head position
 let headX = 50;
@@ -86,7 +116,7 @@ let headY = 50;
 //eye position
 let eyeY = headY - 10;
 let eyeSize = 15;
-let shineSize = eyeSize - 10;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
@@ -100,58 +130,27 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.row_offset  = 0;
 }
 
-/////////////////////////////////
-
-Wallpaper 4:
-
-//your parameter variables go here!
-let unotennisX = 175;
-let unotennisY = 125;
-let dostennisX = 125;
-let dostennisY = 175;
-//milo head position
-let headX = 100;
-let headY = 100;
-//eye position
-let eyeY = headY - 10;
-let eyeSize = 15;
-let shineSize = eyeSize - 10;
-
-
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GLIDE_WALLPAPER);
-  //pWallpaper.output_mode(GRID_WALLPAPER);
-  //DEVELOP_GLYPH
-  //GLIDE_WALLPAPER
-  pWallpaper.resolution(NINE_PORTRAIT);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
-
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 200;
-  pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
 
 /////////////////////////////////
 
 Wallpaper 5:
 
-//your parameter variables go here!
-//spanish tennis balls
-let unotennisX = 170;
-let unotennisY = 30;
-let dostennisX = 30;
-let dostennisY = 170;
+
+ //spanish tennis balls
+let unotennisX = 125;
+let unotennisY = 125;
+let dostennisX = 175;
+let dostennisY = 175;
 //milo head position
-let headX = 100;
-let headY = 100;
+let headX = 50;
+let headY = 50;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 15;
-let shineSize = eyeSize - 10;
+let eyeSize = 20;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
@@ -165,30 +164,29 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.row_offset  = 100;
 }
 
 /////////////////////////////////
 
 Wallpaper 6:
 
-//your parameter variables go here!
-//spanish tennis balls
-let unotennisX = 170;
-let unotennisY = 30;
-let dostennisX = 30;
-let dostennisY = 170;
+ //spanish tennis balls
+let unotennisX = 125;
+let unotennisY = 125;
+let dostennisX = 175;
+let dostennisY = 175;
 //milo head position
-let headX = 100;
-let headY = 100;
+let headX = 50;
+let headY = 50;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 20;
-let shineSize = eyeSize - 10;
+let eyeSize = 18;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
   //pWallpaper.output_mode(GRID_WALLPAPER);
   //DEVELOP_GLYPH
   //GLIDE_WALLPAPER
@@ -205,19 +203,18 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 7:
 
-//your parameter variables go here!
-//spanish tennis balls
-let unotennisX = 175;
-let unotennisY = 175;
-let dostennisX = 125;
-let dostennisY = 125;
+ //spanish tennis balls
+let unotennisX = 125;
+let unotennisY = 125;
+let dostennisX = 175;
+let dostennisY = 175;
 //milo head position
-let headX = 50;
+let headX = 100;
 let headY = 50;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 20;
-let shineSize = eyeSize - 10;
+let eyeSize = 15;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
@@ -238,19 +235,18 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 8:
 
-//your parameter variables go here!
-//spanish tennis balls
-let unotennisX = 175;
-let unotennisY = 175;
-let dostennisX = 125;
-let dostennisY = 125;
+ //spanish tennis balls
+let unotennisX = 50;
+let unotennisY = 130;
+let dostennisX = 150;
+let dostennisY = 170;
 //milo head position
-let headX = 50;
-let headY = 150;
+let headX = 100;
+let headY = 50;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 20;
-let shineSize = eyeSize - 10;
+let eyeSize = 15;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
@@ -271,18 +267,18 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 9:
 
-//spanish tennis balls
-let unotennisX = 175;
-let unotennisY = 175;
-let dostennisX = 125;
-let dostennisY = 125;
+ //spanish tennis balls
+let unotennisX = 50;
+let unotennisY = 130;
+let dostennisX = 150;
+let dostennisY = 170;
 //milo head position
-let headX = 50;
-let headY = 150;
+let headX = 100;
+let headY = 50;
 //eye position
 let eyeY = headY - 10;
-let eyeSize = 20;
-let shineSize = eyeSize - 10;
+let eyeSize = 15;
+let shineSize = eyeSize - 10;  
 
 
 function setup_wallpaper(pWallpaper) {
