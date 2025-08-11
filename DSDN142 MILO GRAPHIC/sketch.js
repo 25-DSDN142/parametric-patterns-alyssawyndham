@@ -1,13 +1,13 @@
 function setup() {
   createCanvas(200, 200); 
-  background(255, 153, 214);
+  background(13, 16, 41);
    angleMode(DEGREES);
 
 
 }
 function draw() {
 //background checkers
-fill(255, 212, 238)
+fill(44, 49, 89)
 strokeWeight(0);
 square(0, 0, 100);
 square(100, 100, 100);
@@ -32,10 +32,12 @@ drawTennis(dostennisX, dostennisY);
 
 
 }
+
  function drawTennis(tennisX, tennisY) {
 
   fill(97, 204, 35);
-  strokeWeight(0);
+  strokeWeight(1);
+  stroke(97, 204, 35);
   circle(tennisX, tennisY, 30);
 
   stroke(255, 255, 255);
@@ -55,7 +57,7 @@ let shineSize = eyeSize - 10;
 
 //head
 stroke(82, 67, 56);
-strokeWeight(2);
+strokeWeight(1);
 fill(238, 228, 214);
 circle(headX, headY,100);
 
